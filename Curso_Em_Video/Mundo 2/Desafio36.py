@@ -2,7 +2,7 @@ ValorCasa = float(input('Qual o Valor da casa: '))
 SalarioComprador = float(input('Salario do comprador: '))
 AnosPagametos = int(input('Em quantos anos voce quer pagar: '))
 
-ValorPrestacao = ValorCasa / AnosPagametos
+ValorPrestacao = ValorCasa / (AnosPagametos * 12)
 print('valro da prestação: {} '.format(ValorPrestacao))
 
 PorcetagemSalario = (SalarioComprador *30)/100
